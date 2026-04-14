@@ -381,8 +381,18 @@ footer { background: #ffffff; padding: 52px 5% 28px; }
 .footer-copy a { color: var(--gold); text-decoration: none; }
 
 
-.reveal { opacity: 0; transform: translateY(30px); transition: opacity .6s ease, transform .6s ease; }
-.reveal.visible { opacity: 1; transform: translateY(0); }
+.reveal {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
 
 @media (max-width: 900px) {
   .hero-inner, .about-grid, .download-grid { grid-template-columns: 1fr; }
