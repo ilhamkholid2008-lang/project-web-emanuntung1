@@ -22,6 +22,6 @@ reveals.forEach(el => {
 window.addEventListener('scroll', () => {
   const nav = document.querySelector('nav');
   nav.style.background = window.scrollY > 50
-    ? 'rgba(0, 0, 0, 0.99)'
+    ? 'rgba(65, 61, 61, 0.99)'
     : 'rgba(1, 2, 3, 0.96)';
 });
